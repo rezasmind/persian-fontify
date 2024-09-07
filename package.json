@@ -1,0 +1,32 @@
+{
+  "name": "persian-fontify",
+  "version": "1.0.1",
+  "description": "Add Persian fonts to your project",
+  "main": "cli.js",
+  "bin": {
+    "persian-fontify": "./cli.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "author": "Reza Aghajani",
+  "license": "MIT",
+  "keywords": [
+    "persian",
+    "font",
+    "tailwind",
+    "css",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezasmind/persian-fontify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rezasmind/persian-fontify/issues"
+  },
+  "homepage": "https://github.com/rezasmind/persian-fontify#readme"
+}
