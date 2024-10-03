@@ -65,8 +65,9 @@ Your CSS file will include:
 
    Use the font in your HTML:
 
-
+```html
    <p class="font-vazir">This text uses Vazir font</p>
+```
 
 ## 🔧 Troubleshooting
 📍 Ensure you're in the correct directory
