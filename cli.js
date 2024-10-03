@@ -21,7 +21,7 @@ program
           name: "font",
           message:
             "[RIP Saber Rastikerdar 🖤] Which persian font would you like to use?",
-          choices: ["Vazir", "Shabnam", "Gandom", "Samim", "Shabnam", "Sahel"],
+          choices: ["Vazir", "Shabnam", "Gandom", "Samim", "Estedad", "Sahel"],
         },
         {
           type: "input",
