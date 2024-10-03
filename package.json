@@ -1,13 +1,16 @@
 {
   "name": "persian-fontify",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Add Persian fonts to your project",
   "main": "cli.js",
   "bin": {
     "persian-fontify": "./cli.js"
   },
   "dependencies": {
-    "adm-zip": "^0.5.10"
+    "adm-zip": "^0.5.16",
+    "axios": "^1.7.2",
+    "commander": "^12.1.0",
+    "inquirer": "^11.1.0"
   },
   "scripts": {
     "start": "node cli.js"
@@ -28,5 +31,6 @@
   "bugs": {
     "url": "https://github.com/rezasmind/persian-fontify/issues"
   },
-  "homepage": "https://github.com/rezasmind/persian-fontify#readme"
+  "homepage": "https://github.com/rezasmind/persian-fontify#readme",
+  "type": "module"
 }
