@@ -40,15 +40,18 @@ npx persian-fontify setup
 After running persian-fontify:
 Your CSS file will include:
 
+```css
   @font-face {
      font-family: 'Vazir';
      src: url('path/to/Vazir.ttf') format('truetype');
      font-weight: 400;
      font-style: normal;
    }
+```
 
    Your Tailwind config will be updated:
 
+```js
    module.exports = {
      theme: {
        extend: {
@@ -58,6 +61,7 @@ Your CSS file will include:
        },
      },
    }
+```
 
    Use the font in your HTML:
 
